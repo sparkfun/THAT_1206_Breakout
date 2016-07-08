@@ -339,6 +339,29 @@ digikey PCE3766TR-ND</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="PANA-EEE-1EA100NP" prefix="C" uservalue="yes">
+<description>Panasonic 10uf 25V nonpolar.
+
+Panasonic EEE-1EA100NP 
+
+Digikey PCE4294TR-ND</description>
+<gates>
+<gate name="G$1" symbol="CAP_POL" x="0" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="PANASONIC_D">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="10uf" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
