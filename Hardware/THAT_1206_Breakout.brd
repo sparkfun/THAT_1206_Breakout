@@ -1824,6 +1824,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="J4" library="SparkFun-Connectors" package="1X01_NO_SILK" value="RN" x="19.05" y="19.05"/>
 <element name="J5" library="SparkFun-Connectors" package="1X01_NO_SILK" value="TN" x="21.59" y="19.05"/>
 <element name="J6" library="SparkFun-Connectors" package="1X01_NO_SILK" value="SN" x="1.27" y="19.05"/>
+<element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="17.145" y="16.51" rot="MR0"/>
 </elements>
 <signals>
 <signal name="VNEG">
