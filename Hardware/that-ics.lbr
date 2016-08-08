@@ -313,6 +313,7 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="PROD_ID" value="IC-13469"/>
 <attribute name="VALUE" value="THAT1206" constant="no"/>
 </technology>
 </technologies>
@@ -360,6 +361,7 @@ digikey PCE3766TR-ND</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="PROD_ID" value="CAP-13470" constant="no"/>
 <attribute name="VALUE" value="220uf" constant="no"/>
 </technology>
 </technologies>
@@ -407,6 +409,7 @@ Digikey PCE4294TR-ND</description>
 <attribute name="DK_PN" value="MM3Z12VT1GOSCT-ND" constant="no"/>
 <attribute name="MFR" value="ON Semi" constant="no"/>
 <attribute name="MFR_PN" value="MM3Z12VT1G" constant="no"/>
+<attribute name="PROD_ID" value="DIO-13471" constant="no"/>
 <attribute name="VALUE" value="12V" constant="no"/>
 </technology>
 </technologies>
