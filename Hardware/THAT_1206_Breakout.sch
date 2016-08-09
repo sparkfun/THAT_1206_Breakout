@@ -20299,7 +20299,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="J2" library="SparkFun-Connectors" deviceset="AUDIO-JACK4-.25-HORIZ-TRS" device="" value="INPUT"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="AUDIO-JACK4-.25-HORIZ-TRS" device="" value="INPUT"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND-ISO1" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VNEG" device=""/>
@@ -20319,10 +20319,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK" value="CHASSIS"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="M02" device="1X02_NO_SILK" value="CHASSIS"/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VNEG" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="M04" device="NO_SILK_ALL_ROUND" value="1x4"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VNEG" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -20331,18 +20331,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C4" library="that-ics" deviceset="PANA-EEE-FKOJ221P" device="" value="220uf"/>
 <part name="D1" library="that-ics" deviceset="12V-ZENER-DIODE" device="" value="12V"/>
 <part name="D4" library="that-ics" deviceset="12V-ZENER-DIODE" device="" value="12V"/>
-<part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
-<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH" value="SFE_LOGO_FLAME.2_INCH"/>
+<part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH" value="SFE_LOGO_FLAME.2_INCH"/>
+<part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH" value="SFE_LOGO_FLAME.2_INCH"/>
+<part name="LOGO4" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
-<part name="J4" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP" value="RN"/>
-<part name="J5" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP" value="TN"/>
-<part name="J6" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP" value="SN"/>
+<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".2_INCH" value="SFE_LOGO_FLAME.2_INCH"/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP" value="RN"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP" value="TN"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="M01" device="PTH_NO_SILK_YES_STOP" value="SN"/>
 </parts>
 <sheets>
 <sheet>
@@ -20384,7 +20384,7 @@ If jack is present, they float.</text>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="V" x="147.32" y="0"/>
-<instance part="J2" gate="G$1" x="10.16" y="101.6" rot="MR180"/>
+<instance part="J1" gate="G$1" x="10.16" y="101.6" rot="MR180"/>
 <instance part="SUPPLY2" gate="G$1" x="149.86" y="121.92"/>
 <instance part="GND-ISO1" gate="G$1" x="30.48" y="60.96"/>
 <instance part="SUPPLY3" gate="G$2" x="149.86" y="68.58"/>
@@ -20404,10 +20404,10 @@ If jack is present, they float.</text>
 <instance part="GND3" gate="1" x="165.1" y="114.3"/>
 <instance part="GND4" gate="1" x="165.1" y="71.12"/>
 <instance part="GND2" gate="1" x="144.78" y="73.66"/>
-<instance part="J1" gate="G$1" x="15.24" y="81.28"/>
+<instance part="J2" gate="G$1" x="15.24" y="81.28"/>
 <instance part="SUPPLY4" gate="G$1" x="167.64" y="137.16"/>
 <instance part="SUPPLY1" gate="G$2" x="81.28" y="119.38"/>
-<instance part="J3" gate="G$1" x="198.12" y="91.44" rot="MR0"/>
+<instance part="J6" gate="G$1" x="198.12" y="91.44" rot="MR0"/>
 <instance part="GND5" gate="1" x="190.5" y="81.28"/>
 <instance part="SUPPLY6" gate="G$2" x="182.88" y="81.28"/>
 <instance part="SUPPLY5" gate="G$1" x="182.88" y="104.14"/>
@@ -20416,18 +20416,18 @@ If jack is present, they float.</text>
 <instance part="C4" gate="G$1" x="139.7" y="116.84" rot="R270"/>
 <instance part="D1" gate="G$1" x="88.9" y="124.46" rot="R180"/>
 <instance part="D4" gate="G$1" x="160.02" y="134.62" rot="R180"/>
-<instance part="LOGO4" gate="G$1" x="185.42" y="35.56"/>
-<instance part="LOGO2" gate="G$1" x="172.72" y="45.72"/>
-<instance part="LOGO1" gate="G$1" x="149.86" y="35.56"/>
+<instance part="LOGO5" gate="G$1" x="185.42" y="35.56"/>
 <instance part="LOGO3" gate="G$1" x="172.72" y="45.72"/>
-<instance part="FD1" gate="G$1" x="246.38" y="20.32"/>
-<instance part="FD2" gate="G$1" x="246.38" y="17.78"/>
-<instance part="LOGO5" gate="G$1" x="149.86" y="35.56"/>
-<instance part="FD3" gate="G$1" x="243.84" y="20.32"/>
-<instance part="FD4" gate="G$1" x="243.84" y="17.78"/>
-<instance part="J4" gate="G$1" x="17.78" y="127" rot="R270"/>
-<instance part="J5" gate="G$1" x="30.48" y="127" rot="R270"/>
-<instance part="J6" gate="G$1" x="43.18" y="127" rot="R270"/>
+<instance part="LOGO1" gate="G$1" x="149.86" y="35.56"/>
+<instance part="LOGO4" gate="G$1" x="172.72" y="45.72"/>
+<instance part="FD3" gate="G$1" x="246.38" y="20.32"/>
+<instance part="FD4" gate="G$1" x="246.38" y="17.78"/>
+<instance part="LOGO2" gate="G$1" x="149.86" y="35.56"/>
+<instance part="FD1" gate="G$1" x="243.84" y="20.32"/>
+<instance part="FD2" gate="G$1" x="243.84" y="17.78"/>
+<instance part="J3" gate="G$1" x="17.78" y="127" rot="R270"/>
+<instance part="J4" gate="G$1" x="30.48" y="127" rot="R270"/>
+<instance part="J5" gate="G$1" x="43.18" y="127" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -20445,7 +20445,7 @@ If jack is present, they float.</text>
 <segment>
 <pinref part="SUPPLY6" gate="G$2" pin="VNEG"/>
 <wire x1="182.88" y1="83.82" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J6" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -20482,7 +20482,7 @@ If jack is present, they float.</text>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="190.5" y1="83.82" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="88.9" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -20499,7 +20499,7 @@ If jack is present, they float.</text>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
 <wire x1="182.88" y1="104.14" x2="182.88" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="J6" gate="G$1" pin="3"/>
 <wire x1="182.88" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -20511,7 +20511,7 @@ If jack is present, they float.</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="RING"/>
+<pinref part="J1" gate="G$1" pin="RING"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 </segment>
@@ -20535,7 +20535,7 @@ If jack is present, they float.</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="TIP"/>
+<pinref part="J1" gate="G$1" pin="TIP"/>
 <wire x1="15.24" y1="99.06" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="99.06" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -20603,13 +20603,13 @@ If jack is present, they float.</text>
 <segment>
 <pinref part="GND-ISO1" gate="G$1" pin="GND-ISO"/>
 <wire x1="30.48" y1="63.5" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="EARTH"/>
+<pinref part="J1" gate="G$1" pin="EARTH"/>
 <wire x1="30.48" y1="81.28" x2="30.48" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="83.82" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="83.82" x2="30.48" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
 <junction x="30.48" y="81.28"/>
 <junction x="30.48" y="83.82"/>
@@ -20619,7 +20619,7 @@ If jack is present, they float.</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="162.56" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="4"/>
+<pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="193.04" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="96.52" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -20658,28 +20658,28 @@ If jack is present, they float.</text>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="EARTH-NORM"/>
+<pinref part="J1" gate="G$1" pin="EARTH-NORM"/>
 <wire x1="15.24" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="96.52" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="114.3" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="J5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="TIP-NORM"/>
+<pinref part="J1" gate="G$1" pin="TIP-NORM"/>
 <wire x1="15.24" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="RING-NORM"/>
+<pinref part="J1" gate="G$1" pin="RING-NORM"/>
 <wire x1="15.24" y1="106.68" x2="17.78" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="106.68" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
