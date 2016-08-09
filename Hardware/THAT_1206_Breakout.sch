@@ -20374,7 +20374,7 @@ to +/-20VDC.</text>
 holding  input to 12V beyond the supply 
 rails.  The max Vin range published for 
 the IC is +/-31V.</text>
-<text x="5.08" y="157.48" size="2.1844" layer="97" font="vector" align="top-left">J4, J5, J6 are normals of 
+<text x="5.08" y="157.48" size="2.1844" layer="97" font="vector" align="top-left">J3, J4, J5 are normals of 
 TRS connections.  If jack 
 is not present, they 
 connect to their respective 
