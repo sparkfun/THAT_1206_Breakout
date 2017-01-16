@@ -29,10 +29,10 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,19 +46,19 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -1432,22 +1432,24 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="AUDIO-JACK-.25-INCH-HORIZ-PTH">
-<pad name="RING-NORM" x="10.5" y="4.35" drill="1.6"/>
-<pad name="SLEEVE" x="4.2" y="-6.95" drill="1.6"/>
-<pad name="SLEEVE-NORM" x="4.2" y="4.35" drill="1.6"/>
-<pad name="RING" x="10.5" y="-6.95" drill="1.6"/>
-<pad name="TIP-NORM" x="16.8" y="4.35" drill="1.6"/>
-<pad name="TIP" x="16.8" y="-6.95" drill="1.6"/>
+<package name="AUDIO_JACK_0.25&quot;_TRS_PTH_RA">
+<description>&lt;h3&gt;Right Angle -1/4" Stereo Jack&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 6&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://cdn.sparkfun.com/datasheets/Components/General/JP-611%20DD.jpg”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;AUDIO_JACK_TRS_0.25"_PTH_RA&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <wire x1="0" y1="6.23" x2="0" y2="-8.77" width="0.127" layer="21"/>
-<wire x1="0" y1="-8.77" x2="21" y2="-8.77" width="0.127" layer="21"/>
-<wire x1="21" y1="-8.77" x2="21" y2="-3.97" width="0.127" layer="21"/>
-<wire x1="21" y1="-3.97" x2="21" y2="4.03" width="0.127" layer="21"/>
-<wire x1="21" y1="4.03" x2="21" y2="6.23" width="0.127" layer="21"/>
-<wire x1="21" y1="6.23" x2="0" y2="6.23" width="0.127" layer="21"/>
-<wire x1="0.73" y1="0.03" x2="24" y2="0.03" width="0.127" layer="21"/>
-<wire x1="24" y1="0.03" x2="24" y2="3.03" width="0.127" layer="21"/>
-<wire x1="24" y1="0.03" x2="24" y2="-2.97" width="0.127" layer="21"/>
+<wire x1="0" y1="-8.77" x2="21" y2="-8.77" width="0.2032" layer="21"/>
+<wire x1="21" y1="-8.77" x2="21" y2="-3.97" width="0.2032" layer="21"/>
+<wire x1="21" y1="-3.97" x2="21" y2="4.03" width="0.2032" layer="21"/>
+<wire x1="21" y1="4.03" x2="21" y2="6.23" width="0.2032" layer="21"/>
+<wire x1="21" y1="6.23" x2="0" y2="6.23" width="0.2032" layer="21"/>
+<wire x1="0.095" y1="0.03" x2="24" y2="0.03" width="0.2032" layer="21"/>
+<wire x1="24" y1="0.03" x2="24" y2="3.03" width="0.2032" layer="21"/>
+<wire x1="24" y1="0.03" x2="24" y2="-2.97" width="0.2032" layer="21"/>
 <wire x1="-9" y1="5.53" x2="0" y2="5.53" width="0.127" layer="51"/>
 <wire x1="0" y1="5.53" x2="0" y2="-5.47" width="0.127" layer="51"/>
 <wire x1="0" y1="-5.47" x2="-9" y2="-5.47" width="0.127" layer="51"/>
@@ -1460,17 +1462,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-4" y1="4.53" x2="-3" y2="-4.47" width="0.127" layer="51"/>
 <wire x1="-3" y1="4.53" x2="-2" y2="-4.47" width="0.127" layer="51"/>
 <wire x1="-2" y1="4.53" x2="-1" y2="-4.47" width="0.127" layer="51"/>
-<wire x1="24" y1="3.03" x2="21" y2="4.03" width="0.127" layer="21"/>
-<wire x1="24" y1="-2.97" x2="21" y2="-3.97" width="0.127" layer="21"/>
+<wire x1="24" y1="3.03" x2="21" y2="4.03" width="0.2032" layer="21"/>
+<wire x1="24" y1="-2.97" x2="21" y2="-3.97" width="0.2032" layer="21"/>
 <wire x1="-9" y1="0.03" x2="-8.1" y2="0.03" width="0.127" layer="51"/>
-<text x="2.54" y="0" size="1.778" layer="25" font="vector">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="27" font="vector">&gt;VALUE</text>
-<hole x="7.4" y="4" drill="2.2"/>
-<hole x="7.4" y="-6.6" drill="2.2"/>
 <wire x1="-6" y1="8.75" x2="0" y2="8.75" width="0.127" layer="51"/>
 <wire x1="-6" y1="-8.75" x2="0" y2="-8.75" width="0.127" layer="51"/>
 <wire x1="-6" y1="8.75" x2="-6" y2="-8.75" width="0.127" layer="51"/>
 <wire x1="0" y1="8.75" x2="0" y2="-8.75" width="0.127" layer="51"/>
+<pad name="RING" x="10.5" y="-6.95" drill="1.6"/>
+<pad name="RING-NORM" x="10.5" y="4.35" drill="1.6"/>
+<pad name="SLEEVE" x="4.2" y="-6.95" drill="1.6"/>
+<pad name="SLEEVE-NORM" x="4.2" y="4.35" drill="1.6"/>
+<pad name="TIP" x="16.8" y="-6.95" drill="1.6"/>
+<pad name="TIP-NORM" x="16.8" y="4.35" drill="1.6"/>
+<hole x="7.4" y="4" drill="2.2"/>
+<hole x="7.4" y="-6.6" drill="2.2"/>
+<text x="7.62" y="-1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="7.62" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 <package name="1X04_NO_SILK_ALL_ROUND">
 <pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -1763,7 +1771,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="IC1" library="that-ics" package="SO08" value="THAT1206" x="36.068" y="7.62">
 <attribute name="PROD_ID" value="IC-13469" x="36.068" y="7.62" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" package="AUDIO-JACK-.25-INCH-HORIZ-PTH" value="INPUT" x="0" y="11.43">
+<element name="J1" library="SparkFun-Connectors" package="AUDIO_JACK_0.25&quot;_TRS_PTH_RA" value="INPUT" x="0" y="11.43">
 <attribute name="PROD_ID" value="CONN-12339" x="0" y="11.43" size="1.778" layer="27" display="off"/>
 <attribute name="SF_ID" value="COM-11144" x="0" y="11.43" size="1.778" layer="27" display="off"/>
 </element>
@@ -1821,16 +1829,16 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="FD3" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="5.588" y="19.304"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="44.704" y="2.54"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="10.922" y="7.62" rot="MR0"/>
-<element name="FD1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="44.704" y="2.54" rot="MR0"/>
-<element name="FD2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="5.588" y="19.304" rot="MR90"/>
 <element name="J3" library="SparkFun-Connectors" package="1X01_NO_SILK" value="RN" x="8.89" y="19.05"/>
 <element name="J4" library="SparkFun-Connectors" package="1X01_NO_SILK" value="TN" x="16.51" y="19.05"/>
 <element name="J5" library="SparkFun-Connectors" package="1X01_NO_SILK" value="SN" x="1.27" y="19.05"/>
-<element name="LOGO6" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="38.735" y="13.97" rot="MR0"/>
 <element name="J7" library="SparkFun-Connectors" package="1X01_NO_SILK" value="R" x="8.89" y="1.27"/>
 <element name="J8" library="SparkFun-Connectors" package="1X01_NO_SILK" value="T" x="16.51" y="1.27"/>
 <element name="J2" library="SparkFun-Connectors" package="1X01_NO_SILK" value="S" x="1.27" y="1.27"/>
 <element name="J9" library="SparkFun-Connectors" package="1X01_NO_SILK" value="Chassis" x="1.27" y="11.43"/>
+<element name="LOGO5" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="SFE_LOGO_NAME.1_INCH" x="38.735" y="13.97" rot="MR0"/>
+<element name="FD1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="5.588" y="19.304" rot="MR0"/>
+<element name="FD2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="44.704" y="2.54" rot="MR0"/>
 </elements>
 <signals>
 <signal name="VNEG">
